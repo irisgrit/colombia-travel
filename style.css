@@ -2,21 +2,220 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 body {
-    background-color: hsl(42, 100%, 75%);
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(fotos-voor-website/IMG_1972.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    height: 15vh
+}
+
+main {
+    padding: 1rem;
+    min-height: 80vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 h1 {
-    background-color: rgb(255, 255, 255);
-    color: blue;
+    padding: 1.25rem;
+    color: white;
     text-align: center;
+    background-color: black;
 }
 
 nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    text-align: right;
+}
+
+nav img {
+    width: 15vh;
+    justify-content: right;
+    max-width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+} 
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+.beschrijving {
+    text-align: center;
+    margin: 2rem;
+}
+
+.beschrijving p {
+    font-size: larger;
+}
+
+h2 {
+    margin-top: 5vh;
+    font-size: 3.5em;
+    text-align: center;
+    margin: 2rem;
+}
+
+h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Homepage */
+
+.text-box {
+    color: black;
     text-align: center;
 }
+
+.text-box p {
+    font-size: 1.7rem;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.text-box div {
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.foto {
+    margin-top: 5vw;
+    box-sizing: border-box;
+    columns: 3 30vw;
+    gap: 0.5rem;
+}
+
+.foto img {
+    margin: 0.5rem;
+}
+
+/* Must Visits */
+
+.mijn-top-3 {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.plekken article {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 20px;  
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*colombiaanse cuisine */
+
+.colombiaanse-cuisine {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.eten {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    padding: 2%;
+    margin: 2%;
+}
+
+.eten article {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 20px;  
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.colombiaanse-cuisine {
+    display: flex;
+    text-align: center;
+}
+
+/* contact */
+
+.contactformulier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+input, textarea {
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 0.8rem;
+    font-size: larger;
+}
+
+
+
+
 
 
 
