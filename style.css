@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-*img {
+* img {
     max-width: 100%;
 }
 
@@ -61,7 +61,6 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding: 0.5rem 0.75rem;
-    position: relative;
 }
 
 nav ul li a {
@@ -192,9 +191,7 @@ h3 {
 }
 
 .eten img {
-    width: 25vw;
-    height: 20vw;
-    padding: 5%;
+    margin-top: 5%
 }
 
 .colombiaanse-cuisine {
@@ -217,7 +214,7 @@ input, textarea {
     margin: 0.5rem;
     width: 60%;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 input::placeholder, textarea::placeholder {
