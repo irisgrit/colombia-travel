@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+*img {
     max-width: 100%;
 }
 
@@ -171,13 +171,30 @@ h3 {
     margin: 2%;
 }
 
+@media (max-width:900px) {
+    .eten {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        padding: 2%;
+        margin: 2%;
+    }
+}
+
 .eten article {
     background-color: rgba(255, 255, 255, 0.6);
     color: black;
     border-radius: 20px;  
     align-items: center;
     text-align: center;
-    display: flex;
+    padding: 5%;
+}
+
+.eten img {
+    width: 25vw;
+    height: 20vw;
+    padding: 5%;
 }
 
 .colombiaanse-cuisine {
@@ -200,6 +217,7 @@ input, textarea {
     margin: 0.5rem;
     width: 60%;
     background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
 }
 
 input::placeholder, textarea::placeholder {
