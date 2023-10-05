@@ -44,10 +44,10 @@ h1 {
 
 nav {
     display: flex;
+    flex: 1;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
     text-align: right;
 }
 
@@ -61,6 +61,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding: 0.5rem 0.75rem;
+    position: relative;
 }
 
 nav ul li a {
@@ -83,17 +84,7 @@ nav ul li:hover::after {
     width: 100%;
 }
 
-.beschrijving {
-    text-align: center;
-    margin: 2rem;
-}
-
-.beschrijving p {
-    font-size: larger;
-}
-
 h2 {
-    margin-top: 5vh;
     font-size: 3.5em;
     text-align: center;
     margin: 2rem;
@@ -114,8 +105,8 @@ h3 {
 
 .text-box p {
     font-size: 1.7rem;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .text-box div {
@@ -137,6 +128,15 @@ h3 {
 }
 
 /* Must Visits */
+
+.beschrijving {
+    text-align: center;
+    margin: 5%;
+}
+
+.beschrijving p {
+    font-size: larger;
+}
 
 .mijn-top-3 {
     text-align: center;
