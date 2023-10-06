@@ -18,7 +18,8 @@ body {
 }
 
 header {
-    height: 15vh
+    height: 15vh;
+    margin-bottom: 3%;
 }
 
 main {
@@ -88,6 +89,7 @@ nav ul li:hover::after {
     font-size: 3.5em;
     text-align: center;
     margin: 2rem;
+    margin-bottom: 5%;
 }
 
 .beschrijving {
@@ -151,6 +153,9 @@ nav ul li:hover::after {
 
 /* Must Visits */
 
+.plekken {
+    margin:2%;
+}
 
 .plekken article {
     background-color: rgba(255, 255, 255, 0.6);
@@ -221,6 +226,7 @@ nav ul li:hover::after {
     justify-content: center;
     align-items: center;
     margin-inline: auto;
+    margin: 2%;
 }
 
 input, textarea {
