@@ -30,9 +30,9 @@ footer {
     background-color: black;
     color: white;
     height: 5vh;
-    text-align: center;
-    justify-content: flex-start;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -84,7 +84,7 @@ nav ul li:hover::after {
     width: 100%;
 }
 
-h2 {
+* h2 {
     font-size: 3.5em;
     text-align: center;
     margin: 2rem;
@@ -92,29 +92,26 @@ h2 {
 
 .beschrijving {
     text-align: center;
-    margin: 5%;
 }
 
 .beschrijving p {
     font-size: 1.5em;
 }
 
-h3 {
+* h3 {
     font-size: 2.5rem;
     text-align: center;
-    margin: 1rem;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 750px) {
-    h2 {
+    * h2 {
         font-size: 2.5em;
-        text-align: center;
         margin: 2rem;
     }
 
-    h3 {
+    * h3 {
         font-size: 2.0rem;
-        text-align: center;
         margin: 1rem;
     }
 }
@@ -166,14 +163,23 @@ h3 {
     margin: 2%;
 }
 
+.plekken article h3, .plekken article p {
+    margin: 5%;
+}
+
 .plekken article img {
-    width: 30vh;
+    width: 30vw;
 }
 
 @media (max-width: 925px){
     .plekken article {
         display: block;
     }
+
+    .plekken article img {
+        width: 35vw;
+    }
+
 }
 
 
