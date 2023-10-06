@@ -166,27 +166,24 @@ h3 {
     margin: 2%;
 }
 
+.plekken article img {
+    width: 30vh;
+}
+
+@media (max-width: 925px){
+    .plekken article {
+        display: block;
+    }
+}
+
 
 /*colombiaanse cuisine */
 
 .eten {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
     padding: 2%;
-    margin: 2%;
-}
-
-@media (max-width:900px) {
-    .eten {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-column-gap: 2rem;
-        grid-row-gap: 2rem;
-        padding: 2%;
-        margin: 2%;
-    }
+    justify-content: center;
 }
 
 .eten article {
@@ -196,15 +193,17 @@ h3 {
     align-items: center;
     text-align: center;
     padding: 5%;
+    width: 45%;
+    margin: 2%;
 }
 
+@media (max-width: 900px) {
+    .eten article {
+        width: 95%;
+    }
+}
 .eten img {
     margin-top: 5%;
-}
-
-.colombiaanse-cuisine {
-    display: flex;
-    text-align: center;
 }
 
 
