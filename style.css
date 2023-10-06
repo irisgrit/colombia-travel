@@ -121,18 +121,8 @@ nav ul li:hover::after {
 
 /* Homepage */
 
-.text-box {
-    color: black;
-    text-align: center;
-}
 
-.text-box p {
-    font-size: 1.7rem;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.text-box div {
+.beschrijving div {
     background-color:rgba(255, 255, 255, 0.8);
     padding: 1.5rem;
     border-radius: 20px;
@@ -144,12 +134,8 @@ nav ul li:hover::after {
     box-sizing: border-box;
     columns: 3 30vw;
     gap: 0.5rem;
+    justify-content: center;   
 }
-
-.foto img {
-    margin: 0.5rem;
-}
-
 
 /* Must Visits */
 
@@ -168,12 +154,16 @@ nav ul li:hover::after {
     margin: 2%;
 }
 
+.plekken article p {
+    font-size: 1.1rem;
+}
+
 .plekken article h3, .plekken article p {
     margin: 5%;
 }
 
 .plekken article img {
-    width: 30vw;
+    width: 25vw;
 }
 
 @media (max-width: 925px){
@@ -193,7 +183,6 @@ nav ul li:hover::after {
 .eten {
     display: flex;
     flex-wrap: wrap;
-    padding: 2%;
     justify-content: center;
 }
 
@@ -206,6 +195,10 @@ nav ul li:hover::after {
     padding: 5%;
     width: 45%;
     margin: 2%;
+}
+
+.eten article p {
+    font-size: 1.1rem;
 }
 
 @media (max-width: 900px) {
