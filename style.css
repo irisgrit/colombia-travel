@@ -93,6 +93,7 @@ nav ul li:hover::after {
 
 .beschrijving {
     text-align: center;
+    margin: 3em;
 }
 
 .beschrijving p {
@@ -117,9 +118,13 @@ nav ul li:hover::after {
     }
 }
 
+* article:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
 
 /* Homepage */
-
 
 .beschrijving div {
     background-color:rgba(255, 255, 255, 0.8);
@@ -136,6 +141,7 @@ nav ul li:hover::after {
     justify-content: center;   
 }
 
+
 /* Must Visits */
 
 .plekken {
@@ -150,7 +156,7 @@ nav ul li:hover::after {
     text-align: center;
     display: flex;
     padding: 2%;
-    margin: 2%;
+    margin: 4%;
 }
 
 .plekken article p {
@@ -173,7 +179,6 @@ nav ul li:hover::after {
     .plekken article img {
         width: 35vw;
     }
-
 }
 
 
@@ -205,6 +210,7 @@ nav ul li:hover::after {
         width: 95%;
     }
 }
+
 .eten img {
     margin-top: 5%;
 }
