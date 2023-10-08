@@ -93,7 +93,7 @@ nav ul li:hover::after {
 
 .beschrijving {
     text-align: center;
-    margin: 3em;
+    margin-bottom: 3em;
 }
 
 .beschrijving p {
@@ -237,6 +237,7 @@ input, textarea {
 
 input::placeholder, textarea::placeholder {
     color: black;
+    font-size: 1rem;
 }
 
 button {
