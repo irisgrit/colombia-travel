@@ -118,10 +118,8 @@ nav ul li:hover::after {
     }
 
     nav {
-
+        font-size: 0.8em;
     }
-
-    nav 
 }
 
 * article:hover {
@@ -184,15 +182,6 @@ nav ul li:hover::after {
 
     .plekken article img {
         width: 35vw;
-    }
-
-    nav {
-        display: flex;
-        flex: 1;
-        padding: 2% 6%;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.8em;
     }
 }
 
